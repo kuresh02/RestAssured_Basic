@@ -1,0 +1,35 @@
+Sure! Here are the highlight points from the transcript on REST APIs and the upcoming lessons:
+
+1. **Introduction to Resources**:
+    - Resources represent an API or a collection that can be accessed from the server.
+    - Example: Google.com as the server with different APIs (Google Maps, Google Search, Google Images, Google Docs).
+    - Each API has a specific resource name included in the base URL for directing the request.
+
+2. **Mandatory Details for API Requests**:
+    - Every API test must include a base URL and resource.
+    - Example: `maps` is a resource for Google Maps API.
+
+3. **Parameters in API Requests**:
+    - **Path Parameters**: Variable parts that change with each request, used to point to a specific resource within a collection (e.g., specific order in Amazon orders).
+    - **Query Parameters**: Used to sort or filter resources, identified with a question mark and separated by an ampersand.
+
+4. **Example of Query Parameters**:
+    - Example: Searching for "New York" on Google results in a URL with query parameters (`?q=New+York`).
+
+5. **Constructing an Endpoint**:
+    - Base URL (server name).
+    - Resource (specific API).
+    - Optional parameters (path or query) based on the API's design.
+
+6. **Headers and Cookies**:
+    - Headers and cookies provide additional data (metadata) for the API to process the request.
+    - Used for authorization, content type specification, etc.
+
+7. **Upcoming Lessons**:
+    - Introduction to Postman Tool for manual API testing.
+    - The course will cover both manual and automated API testing using REST Assured.
+    - Practical examples and designed APIs will be used for hands-on practice.
+
+8. **Next Steps**:
+    - Next lecture will focus on practical examples using Postman.
+    - Manual testing will be covered before moving on to automation with REST Assured.
